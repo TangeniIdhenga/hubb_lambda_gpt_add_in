@@ -1,1 +1,2 @@
 # hubb_lambda_gpt_add_in
+# Created by Tangeni I. these components were created to serve the purpose of allowing the user to post a micrsoft teams link and get a summary of the meeting that was produced during the call.
