@@ -1,9 +1,16 @@
 {
+  "name": "sam-v",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-lambda": "^3.363.0",
-    "@azure/msal-node": "^1.18.0",
-    "aws-sdk": "^2.1413.0",
-    "aws-sdk-js-codemod": "^0.14.1",
+    "@aws-sdk/client-s3": "^3.374.0",
     "axios": "^1.4.0",
     "fluent-ffmpeg": "^2.1.2"
   }
