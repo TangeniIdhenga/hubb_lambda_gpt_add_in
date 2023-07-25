@@ -21,7 +21,7 @@ const config = {
   auth: {
     clientId: clientId,
     authority: `https://login.microsoftonline.com/${tenantId}`,
-    clientSecret: '6d4497f8-4a05-435d-8b41-67a8acefa7e1' // Azure AD application client secret
+    clientSecret: '....' // Azure AD application client secret
   }
 };
 
@@ -108,7 +108,7 @@ const getMeetingTranscription = async (meetingURL) => {
 
 //function to generate the summarization using ChatGPT.v API
 const generateSummarization = async (text) => {
-  const apiKey = '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'; // ChatGPT API key
+  const apiKey = '.....'; // ChatGPT API key
   const url = 'https://api.chatgpt.com/summarize/v1/summarize';
 
   try {
